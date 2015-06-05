@@ -171,6 +171,8 @@ footer {
     border-top: 5px solid #222;
 }
 
+#nav-bar li div:hover {  border-top: 5px solid #127fcb; }
+
 #nav-bar li.active div {
     border-top: 5px solid #127fcb;
 }
@@ -184,6 +186,10 @@ footer {
     background: #222;
     padding: 50px;
     color: #eee;
+}
+
+.intro-option div:hover {
+    background: #127fcb;
 }
 
 .intro-option div p{
