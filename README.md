@@ -1,7 +1,7 @@
 ## Theme Switcher ##
 ---
 A simple theme switcher which uses:  
-1. HTML5 Boilerplate
+1. HTML5 Boilerplate  
 2. Bootstrap   
 3. SASS  
 
