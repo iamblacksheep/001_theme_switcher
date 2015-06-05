@@ -1,8 +1,9 @@
 ## Theme Switcher ##
 ---
 A simple theme switcher which uses:  
-1. HTML5 Boilerplate  
-2. SASS  
+1. HTML5 Boilerplate
+2. Bootstrap   
+3. SASS  
 
 The theme switcher will cater the ff styles:  
 1. Scarlet Fire  
