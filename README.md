@@ -1,2 +1,16 @@
-# 001_theme_switcher
-A simple theme switcher
+## Theme Switcher ##
+---
+A simple theme switcher which uses:  
+1. HTML5 Boilerplate  
+2. SASS  
+
+The theme switcher will cater the ff styles:  
+1. Scarlet Fire  
+2. Bright Orange  
+3. Happy Lemon  
+4. Nature's Fresh  
+5. Calm Vibe  
+6. Slurpee Royale  
+
+---
+#### This repo only has only design for now ####
