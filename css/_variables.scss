@@ -1,0 +1,25 @@
+//Switch Options
+$switch-bg: #333;
+$content-bg: darken($switch-bg, 10%);
+$switch-text: #eee;
+$switch-bg-secondary: #888;
+
+//Default-themes
+$scarlet-fire: #FF2E12;
+$scarlet-fire-second: desaturate($scarlet-fire, 10%);
+$bright-orange: #E56C19;
+$bright-orange-second: desaturate($bright-orange, 20%);
+$happy-lemon: #E1B700;
+$happy-lemon-second: desaturate($happy-lemon, 20%);
+$natures-fresh: #00C13F;
+$natures-fresh-second: desaturate($natures-fresh, 20%);
+$calm-vibe: #5693EC;
+$calm-vibe-second: desaturate($calm-vibe, 20%);
+$slurpee-royale: #691BB8;
+$slurpee-royale-second: desaturate($slurpee-royale, 20%);
+
+//View Content
+$primary-bg-color : $scarlet-fire; 	//primary background color
+$secondary-bg-color: $scarlet-fire-second; 	//secondary background color
+$primary-text-color: #eee; 		//primary text color
+$secondary-text-color: #ccc; 	//secondary text color

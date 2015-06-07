@@ -1,0 +1,34 @@
+@mixin website_color($active)
+{
+	//scarlet fire
+	@if $active == 1 { 
+		$primary-bg-color : $scarlet-fire;
+		$secondary-bg-color: $scarlet-fire-secondary; 	
+	}
+	//bright orange
+	@else if $active == 2 { 
+		$primary-bg-color : $bright-orange;
+		$secondary-bg-color: $bright-orange-secondary; 	
+	}
+	//happy lemon
+	@else if $active == 3 { 
+		$primary-bg-color : $happy-lemon;
+		$secondary-bg-color: $happy-lemon-secondary; 	
+	}
+	//natures fresh
+	@else if $active == 4 { 
+		$primary-bg-color : $natures-fresh;
+		$secondary-bg-color: $natures-fresh-secondary; 	
+	}
+	//calm vibe
+	@else if $active == 5 { 
+		$primary-bg-color : $calm-vibe;
+		$secondary-bg-color: $calm-vibe-secondary; 	
+	}
+	//slurpee royale
+	@else if $active == 6 { 
+		$primary-bg-color : $slurpee-royale;
+		$secondary-bg-color: $slurpee-royale-secondary; 	
+	}
+
+}

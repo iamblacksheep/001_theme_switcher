@@ -1,0 +1,52 @@
+#main-content {
+	padding: 0;
+	background: $content-bg;
+	color: $primary-text-color;
+	header {
+		#nav-bar {
+			display: block;
+			float: right;
+			border-bottom: 0;
+			margin-bottom: 0;
+			li { 
+				display: inline-block; 
+				div {
+					padding: 30px;
+					border-top: 5px solid $content-bg;
+					&:hover {
+						border-top: 5px solid $primary-bg-color;
+					}
+				}
+				&.active div {
+					border-top: 5px solid $primary-bg-color;
+				}
+			}
+		}
+	}
+	#view-content {
+		background: #ddd;
+		color: $primary-bg-color;
+		padding: 20px;
+		text-align: left;
+		.intro-option {
+			text-align: center;
+			padding: 15px;
+			div {
+				background: $primary-bg-color;
+				padding: 50px;
+				color: $primary-text-color;
+				&:hover {
+					background: $secondary-bg-color;
+				}
+				p {
+					font-size: 20px;
+					display: block;
+				}
+			}
+		}
+	}
+	footer {
+		padding: 20px;
+		text-align: center;
+	}
+}

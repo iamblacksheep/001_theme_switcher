@@ -1,5 +1,7 @@
+/** Variables, Mixins**/
+/** Sidebar Styles **/
 #sidebar {
-  background: #222;
+  background: #333;
   color: #eee;
   height: 795px;
   /* Must fill the screen */ }
@@ -50,9 +52,10 @@
       padding: 10px;
       text-align: center; }
 
+/** Home Page **/
 #main-content {
   padding: 0;
-  background: #B81B1B;
+  background: #1a1a1a;
   color: #eee; }
   #main-content header #nav-bar {
     display: block;
@@ -63,25 +66,25 @@
       display: inline-block; }
       #main-content header #nav-bar li div {
         padding: 30px;
-        border-top: 5px solid #B81B1B; }
+        border-top: 5px solid #1a1a1a; }
         #main-content header #nav-bar li div:hover {
           border-top: 5px solid #FF2E12; }
       #main-content header #nav-bar li.active div {
         border-top: 5px solid #FF2E12; }
   #main-content #view-content {
-    background: #fff;
-    color: #B81B1B;
+    background: #ddd;
+    color: #FF2E12;
     padding: 20px;
     text-align: left; }
     #main-content #view-content .intro-option {
       text-align: center;
       padding: 15px; }
       #main-content #view-content .intro-option div {
-        background: #B81B1B;
+        background: #FF2E12;
         padding: 50px;
         color: #eee; }
         #main-content #view-content .intro-option div:hover {
-          background: #FF2E12; }
+          background: #f3371e; }
         #main-content #view-content .intro-option div p {
           font-size: 20px;
           display: block; }
