@@ -1,0 +1,97 @@
+#main-content {
+	header #nav-bar li {
+		div:hover { border-top: 5px solid $primary-bg-color; }
+		&.active div { border-top: 5px solid $primary-bg-color; }
+	}
+	#view-content {
+		color: $primary-bg-color;
+		.intro-option div {
+			background: $primary-bg-color;
+			&:hover { background: $secondary-bg-color; }
+		}
+	}
+}
+
+#main-content.red {
+	header #nav-bar li {
+		div:hover { border-top: 5px solid $scarlet-fire; }
+		&.active div { border-top: 5px solid $scarlet-fire; }
+	}
+	#view-content {
+		color: $scarlet-fire;
+		.intro-option div {
+			background: $scarlet-fire;
+			&:hover { background: $scarlet-fire-second; }
+		}
+	}
+}
+
+#main-content.orange {
+	header #nav-bar li {
+		div:hover { border-top: 5px solid $bright-orange; }
+		&.active div { border-top: 5px solid $bright-orange; }
+	}
+	#view-content {
+		color: $bright-orange;
+		.intro-option div {
+			background: $bright-orange;
+			&:hover { background: $bright-orange-second; }
+		}
+	}
+}
+
+#main-content.yellow {
+	header #nav-bar li {
+		div:hover { border-top: 5px solid $happy-lemon; }
+		&.active div { border-top: 5px solid $happy-lemon; }
+	}
+	#view-content {
+		color: $happy-lemon;
+		.intro-option div {
+			background: $happy-lemon;
+			&:hover { background: $happy-lemon-second; }
+		}
+	}
+}
+
+#main-content.green {
+	header #nav-bar li {
+		div:hover { border-top: 5px solid $natures-fresh; }
+		&.active div { border-top: 5px solid $natures-fresh; }
+	}
+	#view-content {
+		color: $natures-fresh;
+		.intro-option div {
+			background: $natures-fresh;
+			&:hover { background: $natures-fresh-second; }
+		}
+	}
+}
+
+#main-content.blue {
+	header #nav-bar li {
+		div:hover { border-top: 5px solid $calm-vibe; }
+		&.active div { border-top: 5px solid $calm-vibe; }
+	}
+	#view-content {
+		color: $calm-vibe;
+		.intro-option div {
+			background: $calm-vibe;
+			&:hover { background: $calm-vibe-second; }
+		}
+	}
+}
+
+#main-content.purple {
+	header #nav-bar li {
+		div:hover { border-top: 5px solid $slurpee-royale; }
+		&.active div { border-top: 5px solid $slurpee-royale; }
+	}
+	#view-content {
+		color: $slurpee-royale;
+		.intro-option div {
+			background: $slurpee-royale;
+			&:hover { background: $slurpee-royale-second; }
+		}
+	}
+}

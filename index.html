@@ -11,8 +11,8 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css"
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -23,9 +23,9 @@
         <!-- Site Content -->
         <div class="main-container">
             <!-- Sidebar Content -->
-            <div class="col-md-3" id="sidebar">
+            <div class="col-md-2" id="sidebar">
                 <div id="sidebar_title">
-                    <h3>Theme Switcher</h3>
+                    <h4>Theme Switcher</h4>
                     <h5>Click. Pick. Switch.</h5>
                 </div>
                 <div class="row">
@@ -33,43 +33,49 @@
                         <li class="nav-option">
                             <span>Default Themes</span>
                         </li>
-                        <li>
+                        <li class="theme-option" id="scarlet-fire">
                             <div class="nav-option icon col-md-2">
+                                <b class="scarlet-fire"></b>
                                 <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
                             </div>
                             <div class="nav-option col-md-10">Scarlet Fire</div>
                             <div class="clearfix"></div>
                         </li>
-                        <li>
+                        <li class="theme-option" id="bright-orange">
                             <div class="nav-option icon col-md-2">
+                                <b class="bright-orange"></b>
                                 <span class="glyphicon glyphicon-adjust" aria-hidden="true"></span>
                             </div>
                             <div class="nav-option col-md-10">Bright Orange</div>
                             <div class="clearfix"></div>
                         </li>
-                        <li>
+                        <li class="theme-option" id="happy-lemon">
                             <div class="nav-option icon col-md-2">
+                                <b class="happy-lemon"></b>
                                 <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
                             </div>
                             <div class="nav-option col-md-10">Happy Lemon</div>
                             <div class="clearfix"></div>
                         </li>
-                        <li>
+                        <li class="theme-option" id="natures-fresh">
                             <div class="nav-option icon col-md-2">
+                                <b class="natures-fresh"></b>
                                 <span class="glyphicon glyphicon-tree-conifer" aria-hidden="true"></span>
                             </div>
                             <div class="nav-option col-md-10">Nature's Fresh</div>
                             <div class="clearfix"></div>
                         </li>
-                        <li class="active">
+                        <li class="theme-option" id="calm-vibe">
                             <div class="nav-option icon col-md-2">
+                                <b class="calm-vibe"></b>
                                 <span class="glyphicon glyphicon-tint" aria-hidden="true"></span>
                             </div>
                             <div class="nav-option col-md-10">Calm Vibe</div>
                             <div class="clearfix"></div>
                         </li>
-                        <li>
+                        <li class="theme-option" id="slurpee-royale">
                             <div class="nav-option icon col-md-2">
+                                <b class="slurpee-royale"></b>
                                 <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
                             </div>
                             <div class="nav-option col-md-10">Slurpee Royale</div>
@@ -79,7 +85,7 @@
                 </div>
             </div>
             <!-- Main Content -->
-            <div class="col-md-9" id="main-content">
+            <div class="col-md-10" id="main-content">
                 <header class="primary-color">
                     <nav>
                         <ul id="nav-bar">

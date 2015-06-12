@@ -1,0 +1,41 @@
+#main-content {
+	padding: 0;
+	background: $content-bg;
+	color: $primary-text-color;
+	header {
+		#nav-bar {
+			display: block;
+			float: right;
+			border-bottom: 0;
+			margin-bottom: 0;
+			li { 
+				display: inline-block; 
+				div {
+					padding: 30px;
+					border-top: 5px solid $content-bg;
+				}
+			}
+		}
+	}
+	#view-content {
+		background: #ddd;
+		padding: 20px;
+		text-align: left;
+		.intro-option {
+			text-align: center;
+			padding: 15px;
+			div {
+				padding: 50px;
+				color: $primary-text-color;
+				p {
+					font-size: 20px;
+					display: block;
+				}
+			}
+		}
+	}
+	footer {
+		padding: 20px;
+		text-align: center;
+	}
+}
