@@ -16,4 +16,4 @@ The theme switcher will cater the ff styles:
 This app only caters the default theme colors for now.  
 
 Here's a preview of the app:  
-![alt tag](https://raw.github.com/iamblacksheep/001_theme_switcher/preview.PNG)
+![alt tag](https://raw.github.com/iamblacksheep/001_theme_switcher/develop/preview.PNG)
