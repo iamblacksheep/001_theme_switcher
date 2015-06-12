@@ -14,4 +14,7 @@ The theme switcher will cater the ff styles:
 6. Slurpee Royale  
 
 ---
-#### This repo only has only design for now ####
+This app only caters the default theme colors for now.  
+
+Here's a preview of the app:  
+![alt tag](https://raw.github.com/iamblacksheep/001_theme_switcher/develop/preview.PNG)
