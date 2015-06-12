@@ -1,4 +1,82 @@
 /** Variables, Mixins**/
+/** Globals **/
+#main-content header #nav-bar li div:hover {
+  border-top: 5px solid #444; }
+#main-content header #nav-bar li.active div {
+  border-top: 5px solid #444; }
+#main-content #view-content {
+  color: #444; }
+  #main-content #view-content .intro-option div {
+    background: #444; }
+    #main-content #view-content .intro-option div:hover {
+      background: #666; }
+
+#main-content.red header #nav-bar li div:hover {
+  border-top: 5px solid #FF2E12; }
+#main-content.red header #nav-bar li.active div {
+  border-top: 5px solid #FF2E12; }
+#main-content.red #view-content {
+  color: #FF2E12; }
+  #main-content.red #view-content .intro-option div {
+    background: #FF2E12; }
+    #main-content.red #view-content .intro-option div:hover {
+      background: #f3371e; }
+
+#main-content.orange header #nav-bar li div:hover {
+  border-top: 5px solid #E56C19; }
+#main-content.orange header #nav-bar li.active div {
+  border-top: 5px solid #E56C19; }
+#main-content.orange #view-content {
+  color: #E56C19; }
+  #main-content.orange #view-content .intro-option div {
+    background: #E56C19; }
+    #main-content.orange #view-content .intro-option div:hover {
+      background: #cc7132; }
+
+#main-content.yellow header #nav-bar li div:hover {
+  border-top: 5px solid #FDD017; }
+#main-content.yellow header #nav-bar li.active div {
+  border-top: 5px solid #FDD017; }
+#main-content.yellow #view-content {
+  color: #FDD017; }
+  #main-content.yellow #view-content .intro-option div {
+    background: #FDD017; }
+    #main-content.yellow #view-content .intro-option div:hover {
+      background: #e6c22e; }
+
+#main-content.green header #nav-bar li div:hover {
+  border-top: 5px solid #00C13F; }
+#main-content.green header #nav-bar li.active div {
+  border-top: 5px solid #00C13F; }
+#main-content.green #view-content {
+  color: #00C13F; }
+  #main-content.green #view-content .intro-option div {
+    background: #00C13F; }
+    #main-content.green #view-content .intro-option div:hover {
+      background: #13ae46; }
+
+#main-content.blue header #nav-bar li div:hover {
+  border-top: 5px solid #5693EC; }
+#main-content.blue header #nav-bar li.active div {
+  border-top: 5px solid #5693EC; }
+#main-content.blue #view-content {
+  color: #5693EC; }
+  #main-content.blue #view-content .intro-option div {
+    background: #5693EC; }
+    #main-content.blue #view-content .intro-option div:hover {
+      background: #6997d9; }
+
+#main-content.purple header #nav-bar li div:hover {
+  border-top: 5px solid #691BB8; }
+#main-content.purple header #nav-bar li.active div {
+  border-top: 5px solid #691BB8; }
+#main-content.purple #view-content {
+  color: #691BB8; }
+  #main-content.purple #view-content .intro-option div {
+    background: #691BB8; }
+    #main-content.purple #view-content .intro-option div:hover {
+      background: #6930a3; }
+
 /** Sidebar Styles **/
 #sidebar {
   background: #333;
@@ -18,7 +96,7 @@
     #sidebar ul .bright-orange, #sidebar ul #bright-orange.active .icon {
       background: #E56C19; }
     #sidebar ul .happy-lemon, #sidebar ul #happy-lemon.active .icon {
-      background: #E1B700; }
+      background: #FDD017; }
     #sidebar ul .natures-fresh, #sidebar ul #natures-fresh.active .icon {
       background: #00C13F; }
     #sidebar ul .calm-vibe, #sidebar ul #calm-vibe.active .icon {
@@ -55,7 +133,7 @@
 /** Home Page **/
 #main-content {
   padding: 0;
-  background: #1a1a1a;
+  background: #444;
   color: #eee; }
   #main-content header #nav-bar {
     display: block;
@@ -66,25 +144,17 @@
       display: inline-block; }
       #main-content header #nav-bar li div {
         padding: 30px;
-        border-top: 5px solid #1a1a1a; }
-        #main-content header #nav-bar li div:hover {
-          border-top: 5px solid #FF2E12; }
-      #main-content header #nav-bar li.active div {
-        border-top: 5px solid #FF2E12; }
+        border-top: 5px solid #444; }
   #main-content #view-content {
     background: #ddd;
-    color: #FF2E12;
     padding: 20px;
     text-align: left; }
     #main-content #view-content .intro-option {
       text-align: center;
       padding: 15px; }
       #main-content #view-content .intro-option div {
-        background: #FF2E12;
         padding: 50px;
         color: #eee; }
-        #main-content #view-content .intro-option div:hover {
-          background: #f3371e; }
         #main-content #view-content .intro-option div p {
           font-size: 20px;
           display: block; }
